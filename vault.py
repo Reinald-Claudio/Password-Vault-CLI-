@@ -1,7 +1,6 @@
 import os
 import json
 import base64
-import json
 from getpass import getpass
 from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
 from cryptography.hazmat.primitives import hashes
@@ -136,3 +135,4 @@ while True:
         print("\n=============================")
         print("Program interrupted. Exiting.")
         exit()
+
